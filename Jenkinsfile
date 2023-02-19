@@ -12,8 +12,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                // sh './a.out'
-                sh '.aout'
+                sh './a.out'
+                // sh '.aout'
                 echo 'Test stage successful'
             }
         }
